@@ -798,10 +798,12 @@
 		"SWA/wallImages/ggg993.jpg"
 	],
 	"appBackgroundColour": "171B21",
-	"title": "HAND MADE WALLS",
-	"creator": "by Smart Wallpaper Art",
+	"title": "WALLPAPERS",
+	"titleColour": "f3f3f3",
+	"creator": "Smart Wallpaper Art",
+	"creatorColour": "6d6f65",
 	"creatorImageUrl": "https://raw.githubusercontent.com/duke4e/showData/main/wallSL/images/profile/avatar.jpg",
-	"informationHeader": "INFORMATION",
+	"informationHeader": "PLEASE READ",
 	"informationText": "Wallpaper images shown in this app are artistic works and you as a user need the permission of the owner if you want to perform certain acts, such as copying the image or sharing it on the internet. Always contact the owner of the images first.",
 	"socialmedia": {
 		"url": "",
