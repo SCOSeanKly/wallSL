@@ -804,10 +804,11 @@
         "SWA/wallImages/ggg993.jpg"
     ],
     "appBackgroundColour": "171B21",
-    "creator": "Smart Wallpaper Art",
+    "creator": "by Smart Wallpaper Art",
     "creatorImageUrl": "https://raw.githubusercontent.com/duke4e/showData/main/wallSL/images/profile/avatar.jpg",
+    "informationHeader": "INFORMATION"
     "informationText": "Wallpaper images shown in this app are artistic works and you as a user need the permission of the owner if you want to perform certain acts, such as copying the image or sharing it on the internet. Always contact the owner of the images first.",
-    "socialmedia":
+ "socialmedia":
     {
         "url": "",
         "username": "@TeboulDavid1",
