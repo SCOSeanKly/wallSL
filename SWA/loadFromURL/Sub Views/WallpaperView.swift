@@ -36,7 +36,8 @@ struct WallpaperView: View {
     @Binding var showImageExportedNotification: Bool
     let width = UIScreen.main.bounds.width * 0.28
     let height = UIScreen.main.bounds.width * 0.60
-    let titleColor = Color(hex: "f3f3f3").opacity(1.0)
+    let screenWidth = UIScreen.main.bounds.width
+    let screenHeight = UIScreen.main.bounds.height
     @Binding var appBackgroundColour: String
     @Binding var fullScreenSavesCount: Int
     @Binding var isShowingSettings: Bool
@@ -89,6 +90,7 @@ struct WallpaperView: View {
                         Image(uiImage: image)
                             .resizable()
                             .aspectRatio(contentMode: .fill)
+                            .frame(width: screenWidth, height: screenHeight)
                             .gesture(createDragGesture())
                             .ignoresSafeArea(.all)
                             .onTapGesture(count: 2){
