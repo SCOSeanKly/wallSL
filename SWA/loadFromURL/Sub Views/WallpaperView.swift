@@ -94,6 +94,7 @@ struct WallpaperView: View {
                             .gesture(createDragGesture())
                             .ignoresSafeArea(.all)
                             .onTapGesture(count: 2){
+                                feedback()
                                 saveImageTap(image: image)
                                 fullScreenSavesCount += 1
                                 isShowingDoubleTaptoSave += 1

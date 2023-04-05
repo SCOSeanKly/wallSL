@@ -76,7 +76,11 @@ struct GearIconView: View {
             )
     }
         .onTapGesture {
-            SettingsManager.toggleSettingsGear(gearRotationAngle: &gearRotationAngle, isShowingSettingsGear: &isShowingSettingsGear, isShowingSettings: &isShowingSettings)}
+            
+            SettingsManager.toggleSettingsGear(gearRotationAngle: &gearRotationAngle, isShowingSettingsGear: &isShowingSettingsGear, isShowingSettings: &isShowingSettings)
+            
+            feedback()
+        }
     }
 }
 

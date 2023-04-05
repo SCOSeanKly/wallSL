@@ -25,7 +25,7 @@ struct SocialMediaLinkView: View {
                 
                 Link("\(socialMediaPlatform.capitalized)", destination: url)
                     .font(.footnote)
-                    .fontWeight(.semibold)
+                   // .fontWeight(.semibold)
                     .offset(x: -5)
                 
                 Spacer()
