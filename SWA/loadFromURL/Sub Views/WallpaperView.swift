@@ -43,6 +43,7 @@ struct WallpaperView: View {
     @Binding var isShowingSettings: Bool
     @State private var isShowingDoubleTaptoSave: Int = 0
     @Binding var isAnimateGear: Bool
+    
 
     
     var body: some View {
