@@ -1,5 +1,8 @@
 {
 	"imageUrlsLowRes": [
+		"SWA/wallImagesLowRes/ggg1476.png",
+		"SWA/wallImagesLowRes/ggg1475.png",
+		"SWA/wallImagesLowRes/ggg1474.png",
 		"SWA/wallImagesLowRes/ggg1473.png",
 		"SWA/wallImagesLowRes/ggg1472.png",
 		"SWA/wallImagesLowRes/ggg1471.png",
@@ -778,6 +781,9 @@
 		
 	],
 	"imageUrls": [
+		"SWA/wallImages/ggg1476.png",
+		"SWA/wallImages/ggg1475.png",
+		"SWA/wallImages/ggg1474.png",
 		"SWA/wallImages/ggg1473.png",
 		"SWA/wallImages/ggg1472.png",
 		"SWA/wallImages/ggg1471.png",
